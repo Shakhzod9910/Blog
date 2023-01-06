@@ -1,0 +1,171 @@
+.home{
+    .home-wrapper{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-top: 70px;
+        .left-wrapper{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            
+            .digital{
+                text-transform: uppercase;
+                color: $lightblue;
+                margin-bottom: 8px;
+            }
+            h1{
+                @extend %aeonik-medium-56;
+                max-width: 520px;
+                width: 100%;
+                margin-bottom: 16px;
+                color: $black;
+            }
+            p{
+                max-width: 387px;
+                width: 100%;
+                @extend %aeonik-regular-18;
+                color: $gray;
+                margin-bottom: 32px;
+            }
+            h5{
+                @extend %aeonik-medium-16;
+                color: #9B9B9B;
+                margin-top: 32px;
+            }
+            .companys{
+                max-width: 290px;
+                display: flex;
+                width: 100%;
+                flex-wrap: wrap;
+                list-style: none;
+                margin-top: 16px;
+                li{
+                    width: 83px;
+                    margin-right: 10px;
+                    margin-bottom: 16px;
+                }
+            }
+        }
+        .right-wrapper{
+            .img-wrapper{
+                min-width: 490px;
+                width: 100%;
+            }
+        }
+    }
+
+    .services{
+        border: 1px solid $white;
+        background: linear-gradient(180deg, rgba(245, 244, 247, 0) 0%, #F5F4F7 100%);
+        .min-header{
+            text-align: center;
+            @extend %aeonik-medium-16;
+            color: $lightblue;
+            display: flex;
+            justify-content: center;
+            margin-top: 64px;
+            margin-bottom: 8px;
+            text-transform: uppercase
+        }
+        .header{
+            @extend %aeonik-medium-32;
+            text-align: center;
+            margin-bottom: 16px;
+            color: $black;
+        }
+        .header-p{
+            max-width: 738px;
+            width: 100%;
+            text-align: center;
+            margin-right: auto;
+            margin-left: auto;
+            @extend %aeonik-regular-16;
+            color: $gray;
+        }
+        .ai{
+            width: 600px;
+            height: 400px;
+            padding-bottom: 50px;
+            margin-right: auto;
+            margin-left: auto;
+            margin-top: 40px;
+            border-radius: 28px;
+            overflow: hidden;
+            margin-bottom: 50px;
+        }
+    }
+    .works{
+        display: grid;
+        grid-template-columns: 305px 1fr;
+        gap: 40px;
+        padding: 150px 0 0 0;
+        .left-wrapper{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            .title{
+                @extend %aeonik-medium-16;
+                color: $lightblue;
+                text-transform: uppercase;
+            }
+            h1{
+                @extend %aeonik-medium-32;
+                color: $black;
+                margin-top: 8px;
+            }
+            p{
+                max-width: 290px;
+                width: 100%;
+                @extend %aeonik-regular-16;
+                color: $gray;
+                margin-top: 16px;
+                margin-bottom: 32px;
+            }
+            .btn-primary{
+                @extend %aeonik-medium-18;
+                .blog-link{
+                    color: #fff;
+                }
+            }
+        }
+        .right-wrapper{
+            overflow: hidden;
+            ul{
+                
+               
+                
+                li{
+                    padding-right: 40px !important;
+                    display: flex;
+                    width: 346px;
+                    flex-direction: column;
+                    .item-wrapper{
+                        padding-right: 40px;
+                        width: 346px;
+                    }
+                    
+                    .project-img-wrapper{
+                        width: 346px;
+                        height: 250px;
+                        padding-right: 40px !important;
+                    }
+                    h2{
+                        margin-top: 24px;
+                        @extend %aeonik-medium-24;
+                        color: $black;
+                    }
+                    p{
+                        margin-top: 8px;
+                        @extend %aeonik-regular-16;
+                        color: $gray;
+                    }
+                }
+            } 
+        }
+    }
+
+    
+
+    
+
+}
