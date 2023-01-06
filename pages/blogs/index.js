@@ -17,7 +17,7 @@ const Projects = () => {
     <>
     <section className="projects container">
     <Head>
-        <title>Rounded LLC</title>
+        <title>Blogs</title>
     </Head>
       <div className="blogs">
         <h1 className="ai-header">AI GAMING BLOG</h1>
