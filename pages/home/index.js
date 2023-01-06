@@ -3,7 +3,7 @@ import Link from "next/link";
 import Head from "next/head";
 import Image from "next/image";
 import Macbook from "../../src/assets/images/Macbook.png";
-import APhoto from "../../src/assets/images/Aigif.gif";
+import APhoto from "../../src/assets/images/aigif.gif";
 import Visitbox from "../../src/components/Visitbox";
 import ProjectOne from "../../src/assets/images/project1.gif";
 import Pong1 from "../../src/assets/images/pong1.png";
